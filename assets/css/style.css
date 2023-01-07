@@ -1438,8 +1438,8 @@ section {
   content: "";
   left: 0;
   bottom: 0;
-  height: 100%;
-  width: 100%;
+  height: 150%;
+  width: 150%;
   background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
