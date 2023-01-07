@@ -55,7 +55,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #007AFF;
   text-transform: uppercase;
 }
 
@@ -136,7 +136,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #007AFF;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -556,6 +556,23 @@ section {
 .about .content {
   background-color: #181818;
   padding: 40px;
+}
+.about .section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #007AFF;
+  text-transform: uppercase;
+}
+
+.about .section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .about h3 {
