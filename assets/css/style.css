@@ -1,7 +1,5 @@
 /**
-* Template Name: FlexStart - v1.12.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
+* Author: BootstrapMade.com & DevScapeDev.com
 * License: https://bootstrapmade.com/license/
 */
 
@@ -1459,12 +1457,14 @@ section {
 .team .member .member-img:after {
   position: absolute;
   content: "";
-  left: 0;
-  bottom: 0;
-  height: 150%;
-  width: 150%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
-  background-size: contain;
+  left: 50%;
+  bottom: -5em;
+  height: 40%;
+  width: 120%;
+  background: #fff;
+  transform: translateX(-50%) rotate(-10deg);
+  /*background: url(../img/team-shape.svg) no-repeat center bottom;*/
+  /*background-size: contain;*/
   z-index: 1;
 }
 
