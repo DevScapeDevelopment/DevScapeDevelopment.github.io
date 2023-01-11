@@ -124,6 +124,51 @@ section {
   content: "/";
 }
 
+.b-nav 
+{
+  padding: 0;
+}
+.b-nav ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.b-nav li
+{
+  position: relative;
+}
+
+.b-nav a,
+.b-nav a:focus 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #007AFF;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.b-nav a i,
+.b-nav a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.b-nav a:hover,
+.b-nav li:hover>a {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
