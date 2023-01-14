@@ -1,11 +1,11 @@
 <svg width="500" height="500" viewBox="0 0 1108 1048" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
         #Skeleton {
-            animation: fadeInUp 10s infinite ease-in-out;
+            animation: fadeInUp 7.5s infinite ease-in-out;
         }
 
         #Accent {
-          animation: dropIn 10s infinite ease-in-out;
+          animation: dropIn 7.5s infinite ease-in-out;
         }
         @keyframes fadeInUp {
           0% {
