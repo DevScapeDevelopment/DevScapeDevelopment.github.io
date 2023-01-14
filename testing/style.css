@@ -14,24 +14,51 @@ h1 {
   margin-top: 5px;
 }
 
-/* Applies to all elements with <... class="someclass"> specified. */
-.someclass { color: red; }
-
-/* Applies to the element with <... id="someid"> specified. */
-#someid { color: green; }
-
-#Screen {
-  transition: all 10s ease;
+#Skeleton {
+  animation: fadeInUp 10s infinite ease-in-out;
 }
 
-#Skeleton .hover {
-  transform: translateX(-100%);
+#Accent {
+  animation: dropIn 10s infinite ease-in-out;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0.5;
+    scale: 2;
+    transform: translateY(-100%);
+  }
+  20%, 80% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0%)
+  }
+  100% {
+    opacity: 0.5;
+    scale: 2;
+    transform: translateY(-100%);
+  }
 }
 
-#_Image19 {
-  transform: translateY(-100%);
-}
-
-svg:hover #_Image19{
-  transform: translateY(0%);
+@keyframes dropIn {
+  0%, 20% {
+    opacity: 0.5;
+    scale: 2;
+    transform: translateY(-100%);
+  }
+  40%{
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0%);
+  }
+  70% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0%);
+  }
+  90%, 100% {
+    opacity: 0.5;
+    scale: 2;
+    transform: translateY(-100%);
+  }
+  
 }
